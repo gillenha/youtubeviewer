@@ -10,7 +10,7 @@ class SearchBar extends Component {
 
 	render() {
 		return(
-			<div className="f-headline lh-solid mh5 mt2">
+			<div className="f-headline lh-solid tc mt2">
 				<input 
 				value={this.state.term}
 				onChange={event => this.setState({ term: event.target.value })} />
