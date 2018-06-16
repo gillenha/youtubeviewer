@@ -1,27 +1,42 @@
+body {
+	background: #f8f9fa;
+}
+
 .search-bar {
 	margin: 20px;
 	text-align: center;
 }
 
 .search-bar input {
-	width: 75%;
+	width: 50%;
+	border-radius: 4px;
 }
 
 .video-item img {
-	max-width: 64px;
+	max-width: 100px;
+}
+
+.video-detail {
+	width: 50%;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:100px;
+	margin-right:auto;
 }
 
 .video-detail .details {
 	margin-top: 10px;
 	padding: 10px;
-	border: 10px solid #ddd;
+	border: 1px solid black;
 	border-radius: 4px;
 }
 
 .list-group-item {
 	cursor: pointer;
+	height: 95px;
 }
 
 .list-group-item:hover {
 	background-color: #eee;
+	text-decoration: underline;
 }

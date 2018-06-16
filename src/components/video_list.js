@@ -12,7 +12,7 @@ const VideoList = (props) => {
 	});
 
 	return (
-			<ul className="f1 ml5 tc">
+			<ul className="col-md-4 list-group">
 				{videoItems}
 			</ul>
 	);
