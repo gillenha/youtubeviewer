@@ -12,6 +12,19 @@ body {
 	border-radius: 4px;
 }
 
+.welcome-message {
+	padding-top: 10px;
+	background-color: #dee2e6;
+	width: 30%;
+	font-size: .3em;
+	text-align: center;
+	padding-left: 3px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 25px;
+	opacity: .8
+}
+
 .video-item img {
 	max-width: 100px;
 }

@@ -14,6 +14,11 @@ class SearchBar extends Component {
 				<input 
 				value={this.state.term}
 				onChange={event => this.onInputChange(event.target.value) }/>
+			<div className="welcome-message shadow-4">
+				<p>This is a simplified Youtube Viewer. <br /> Search for a video, get the top five results, and get watching. <br />
+				No distractions, no recommended videos, no crazy comments section.
+				Enjoy!</p>
+			</div>
 			</div>
 		);
 	}
